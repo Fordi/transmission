@@ -13,7 +13,7 @@ export const RPC = {
   _QueueMoveDown: 'queue_move_down',
   _QueueMoveTop: 'queue_move_top',
   _QueueMoveUp: 'queue_move_up',
-  _Root: '../rpc',
+  _Root: new URL('../rpc', location).toString(),
   _TurtleDownSpeedLimit: 'alt_speed_down',
   _TurtleState: 'alt_speed_enabled',
   _TurtleUpSpeedLimit: 'alt_speed_up',
